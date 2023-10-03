@@ -83,6 +83,10 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/circle.png
+    - assets/images/kunal.png
+    - assets/images/vinit.png
+    - assets/images/bohra.png
+    - assets/images/me.png
 
 
 

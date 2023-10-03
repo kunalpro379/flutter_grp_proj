@@ -8,8 +8,6 @@ import 'package:whatsapp/feature/auth/widgets/Custom_Icon.dart';
 import 'package:whatsapp/feature/auth/widgets/custom_text_field.dart';
 import 'package:whatsapp/feature/welcome/pages/user_info_pages.dart';
 
-import 'lib/feature/auth/login_page.dart';
-
 class VerificationPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

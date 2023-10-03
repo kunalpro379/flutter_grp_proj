@@ -6,7 +6,11 @@ import 'package:whatsapp/common/widgets/custom_elevated_button.dart';
 import 'package:whatsapp/feature/auth/widgets/Custom_Icon.dart';
 import 'package:whatsapp/feature/auth/widgets/custom_text_field.dart';
 import 'package:whatsapp/feature/auth/widgets/short_h_bar.dart';
+import 'package:whatsapp/MyHomePage.dart';
+import 'package:whatsapp/mainCallScreen.dart.dart';
+import 'package:whatsapp/mainChatScreen.dart.dart';
 
+//import 'package:whatsapp/feature/welcome/pages/lib/mainChatScreen.dart.dart';
 class UserInfoPage extends StatefulWidget {
   const UserInfoPage({super.key});
 
@@ -151,7 +155,16 @@ class _UserInfoPageState extends State<UserInfoPage> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: CustomElevatedButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => mainCallsScreen(
+                  //title: 'WhatsApp',
+                  ),
+            ),
+          );
+        },
         text: 'NEXT',
         buttondWidth: 90,
         textStyle: TextStyle(color: context.theme.greyColor),

@@ -8,14 +8,13 @@ import 'package:riverpod/src/framework.dart';
 import 'package:whatsapp/common/helper/show_alert_dilog.dart';
 //import 'package:whatsapp/feature/auth/controller/auth_controller.dart';
 import '../../common/extension/custon_theme_extension.dart';
-import '../../common/utils/colours.dart';
 import '../../common/widgets/custom_elevated_button.dart';
 import 'widgets/Custom_Icon.dart';
 import 'widgets/custom_text_field.dart';
 import '../../common/route/routes.dart';
 import 'package:whatsapp/feature/welcome/pages/verification_pages.dart';
 import 'package:whatsapp/feature/auth/lib/feature/auth/controller/auth_controller.dart';
-import 'lib/common/helper/show_alert_dilog.dart';
+
 import 'package:flutter/material.dart';
 import 'package:country_picker/country_picker.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
